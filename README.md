@@ -1,0 +1,2 @@
+# GrowtopiaStealer
+Steals save.dat
